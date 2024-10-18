@@ -94,7 +94,3 @@ class Agenda:
 
         return upcoming if upcoming else None
 
-
-ajanda = Agenda()
-ajanda.add_event("Haliç","Buluşma","09-05-2025","11:30")
-ajanda.search_event(1)
